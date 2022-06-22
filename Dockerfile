@@ -25,8 +25,8 @@ ENTRYPOINT [ "java", "-jar", "/app/papyrusbot.jar" ]
 # ADD src /app/src
 # RUN mvn package
 # 
-# ENV MINECRAFT_SERVER_HOST=127.0.0.1
-# ENV MINECRAFT_SERVER_PORT=19132
+# ENV MINECRAFT_SERVER_HOST=Bantansmp.aternos.me
+# ENV MINECRAFT_SERVER_PORT=60853
 # 
 # EXPOSE 8080
 # ENTRYPOINT [ "mvn", "exec:java", "-Dexec.mainClass=games.redpoint.App" ]
